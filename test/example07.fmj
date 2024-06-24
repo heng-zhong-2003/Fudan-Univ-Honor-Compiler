@@ -1,0 +1,10 @@
+public int main() {
+  return new c1().x;
+}
+
+public class c0 {
+   float a=1.0;
+}
+public class c1 extends c0 {
+   float x=1;
+}

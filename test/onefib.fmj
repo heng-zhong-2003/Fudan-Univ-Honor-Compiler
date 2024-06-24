@@ -1,0 +1,13 @@
+public int main() {
+  int n=13;
+  return ({putnum(new fib().f(n)); putch(10);} 0);
+}
+
+public class fib {
+  public int f(int n) {
+    if (n == 0 || n == 1) 
+      return n;
+    else 
+      return this.f(n - 1) + this.f(n - 2);
+  }
+}

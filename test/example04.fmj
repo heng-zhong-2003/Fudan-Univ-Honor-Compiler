@@ -1,0 +1,5 @@
+
+public int main() {
+  float[] b={1,2};
+  return b[0];
+}

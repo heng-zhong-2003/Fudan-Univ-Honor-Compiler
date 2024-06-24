@@ -1,0 +1,12 @@
+public int main() {
+}
+
+public class c1 {
+    public int m1() {
+    }
+}
+
+public class c2  {
+    public int m1() {
+    }
+}

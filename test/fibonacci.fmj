@@ -1,0 +1,52 @@
+public int main() {
+  int n;
+  int i=0;
+  class fib o;
+
+  n=({
+  putch(69);  //E
+  putch(110); //n
+  putch(116); //t
+  putch(101); //e
+  putch(114); //r
+  putch(32);  //space
+  putch(116); //t
+  putch(104); //h
+  putch(101); //e
+  putch(32);  //space
+  putch(110); //n
+  putch(117); //u
+  putch(109); //m
+  putch(98);  //b
+  putch(101); //e
+  putch(114); //r
+  putch(32);  //space
+  putch(111); //o
+  putch(102); //f
+  putch(32);  //space
+  putch(116); //t
+  putch(101); //e
+  putch(114); //r
+  putch(109); //m
+  putch(58);  //:
+  }
+  getnum());
+
+  if (n<0||n>47) return -1;
+  o=new fib();
+  
+  return (
+     {while (i<n) 
+        putch(({putnum(o.f(i));} ({i=i+1;} 32)));
+      putch(10);
+     } 0);
+}
+
+public class fib {
+  public int f(int n) {
+    if (n == 0 || n == 1) 
+      return n;
+    else 
+      return this.f(n - 1) + this.f(n - 2);
+  }
+}

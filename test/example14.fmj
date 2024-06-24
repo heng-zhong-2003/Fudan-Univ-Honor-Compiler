@@ -1,0 +1,18 @@
+public int main() {
+  return new c().m(1);
+}
+
+public class c {
+   public float m(float a) {
+      return a;
+   }
+}
+
+public class c1 extends c {
+   int [] x;
+   public int m1(float a, int b) {
+      int y;
+      y=(a>b);
+      return new c().m(1);
+   }
+}

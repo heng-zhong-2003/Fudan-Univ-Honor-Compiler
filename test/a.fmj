@@ -1,0 +1,9 @@
+public int main() {
+    int x;
+    x = 0;
+    while (x < 5) {
+        putnum(x);
+        x = x + 1;
+    }
+    return 0;
+}
