@@ -1,0 +1,5 @@
+public int main() {
+  float b=0;
+  b= (b==1 || b==0);
+  return b;
+}

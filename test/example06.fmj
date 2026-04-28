@@ -1,0 +1,7 @@
+public int main() {
+  return new c1().x;
+}
+
+public class c1 {
+   float x=1;
+}
